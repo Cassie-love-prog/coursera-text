@@ -1,8 +1,46 @@
 .menu{
   font-size: 30px;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 .container{
   display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+}
+.button{
+  background-color: orange;
+  font-size: 15px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+}
+
+.box{
+  width: 90%;
+  height: 180px;
+  background-color: gray;
+  margin-right: 15px;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-family: helvetica;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+@media screen (max-width: 1200px) {
+  .container{
+    float: left;
+    color: gray;
+    border: 1px; 
+  }
+  .box{
+    width: 25%;
+  }
+}
+  
   
