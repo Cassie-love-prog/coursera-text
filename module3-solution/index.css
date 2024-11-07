@@ -8,10 +8,6 @@ body {
   background-color: yellow;
 }
 
-#header-nav button {
-  margin-top: 22px;
-}
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: gray;
 }
@@ -40,16 +36,6 @@ body {
   color: #202020;
   background-color: #fce29e;
 }
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #7d1913;
-}
-
-
-/** END HEADER */
-
-
-/** HOME PAGE **/
 
 #main-content {
   width: 92%;
