@@ -1,44 +1,64 @@
-*{
-  box-sizing: border-box;
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
 }
 
-body{
-  font-size: 10px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: oxygen, sans-serif;
-  height: 1000px;
-}
 #header-nav {
-background-color:#f6b319 ;
-border-radius: 0;
-border: 0; 
+  background-color: yellow;
 }
-.nav-brand{
-  font-size:  20px;
+
+#header-nav button {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: gray;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color: black;
 }
-.h1{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 15px;
-  font-size: 10px;
-}
-.main-content{
-  background-color: gray;
-  line-height: normal;
-  height: 300px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.h2{
-  text-align: center;
-}
-@media screen (max-widthh 1200px) {
-  .main-content{
 
-  }
+#nav-list {
+  background-color: yellowgreen
+}
+
+  #nav-list a:hover {
+  color: #202020;
+  background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+  width: 92%;
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 2.9em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
